@@ -1,0 +1,262 @@
+{
+  "CapitalOne": {
+    "Links": {
+      "Normal": "www.capitalone.com",
+      "Typo": "www.captalone.com",
+      "Subdomain": "www.capitalone.banking.com",
+      "Alt": "www.investment-banking.com"
+    },
+    "BlueText": {
+      "Normal" : "Capital One | Credit Cards, Checking, Savings & Auto Loans",
+      "Alt" : "Your trusted banking partner"
+    },
+    "NameOverURL": {
+      "Normal": "Capital One",
+      "Alt": "4-DAVE"
+    },
+    "Description": {
+      "Normal": "Visit the official site for Capital One. Get information, services and more.",
+      "Alt": "Capital One members get exclusive savings and rewards. Sign up today for limited-time offers."
+    }
+  },
+  "Bank of America": {
+    "Links": {
+      "Normal": "www.bankofamerica.com",
+      "Typo": "www.bankofamarica.com",
+      "Subdomain": "www.bankofamerica.login.com",
+      "Alt": "www.investment-banking.com"
+    },
+    "BlueText": {
+      "Normal" : "Bank of America - Banking, Credit Cards and Loans",
+      "Alt" : "Your trusted banking partner"
+    },
+    "NameOverURL": {
+      "Normal": "Bank of America",
+      "Alt": "4-DAVE"
+    },
+    "Description": {
+      "Normal": "Visit the official site for Bank of America. Get information, services and more.",
+      "Alt": "Bank of America customers can claim special account bonuses. Apply now before offers expire."
+    }
+  },
+  "Citi": {
+    "Links": {
+      "Normal": "www.citi.com",
+      "Typo": "citbank.com",
+      "Subdomain": "www.citi.auth-portal.com/login",
+      "Alt": "www.investment-banking.com"
+    },
+    "BlueText": {
+      "Normal" : "Online Banking, Mortgages, Personal Loans, Investing | Citi.com",
+      "Alt" : "Your trusted banking partner"
+    },
+    "NameOverURL": {
+      "Normal": "Citi.com",
+      "Alt": "4-DAVE"
+    },
+    "Description": {
+      "Normal": "Visit the official site for Citi. Get information, services and more.",
+      "Alt": "Citi cardholders unlock premium banking perks. Verify your account to claim rewards today."
+    }
+  },
+  "eBay": {
+    "Links": {
+      "Normal": "www.ebay.com",
+      "Typo": "www.epay.com",
+      "Subdomain": "www.ebay.auctions.com/browse",
+      "Alt": "www.auction-house.com"
+    },
+    "BlueText": {
+      "Normal" : "Electronics, Cars, Fashion, Collectibles & More | eBay",
+      "Alt" : "Auctions for Anything"
+    },
+    "NameOverURL": {
+      "Normal": "eBay",
+      "Alt": "4-DAVE"
+    },
+    "Description": {
+      "Normal": "Visit the official site for eBay. Get information, services and more.",
+      "Alt": "eBay shoppers save big on top brands today. Browse exclusive deals while supplies last."
+    }
+  },
+  "PayPal": {
+    "Links": {
+      "Normal": "www.paypal.com",
+      "Typo": "www.pavpal.com",
+      "Subdomain": "www.paypal.auth.com/login",
+      "Alt": "www.money-made-easy.com"
+    },
+    "BlueText": {
+      "Normal" : "Send Money, Pay Online or Set Up a Merchant Account - PayPal",
+      "Alt" : "Move Your Online Money Like Cash"
+    },
+    "NameOverURL": {
+      "Normal": "PayPal",
+      "Alt": "PalPay"
+    },
+    "Description": {
+      "Normal": "Visit the official site for PayPal. Get information, services and more.",
+      "Alt": "PayPal users get instant transfers and exclusive cashback. Confirm your account to begin."
+    }
+  },
+  "Venmo": {
+    "Links": {
+      "Normal": "www.venmo.com",
+      "Typo": "www.vemo.com",
+      "Subdomain": "www.venmo.secure-portal.com/login",
+      "Alt": "www.sendcash.com"
+    },
+    "BlueText": {
+      "Normal" : "Venmo - Official Site - Fast, Safe, Social Payments",
+      "Alt" : "4-DAVE"
+    },
+    "NameOverURL": {
+      "Normal": "Venmo",
+      "Alt": "4-DAVE"
+    },
+    "Description": {
+      "Normal": "Visit the official site for Venmo. Get information, services and more.",
+      "Alt": "Venmo users send and receive money instantly with zero fees. Sign up for a bonus today."
+    }
+  },
+  "Microsoft": {
+    "Links": {
+      "Normal": "support.microsoft.com/en-us/contact",
+      "Typo": "support.micrasoft.com/en-us/contact",
+      "Subdomain": "www.microsoft.support.com/en-us/contact",
+      "Alt": "www.support4tech.com"
+    },
+    "BlueText": {
+      "Normal" : "Contact Us - Microsoft Support",
+      "Alt" : "Get Tech Help Now!"
+    },
+    "NameOverURL": {
+      "Normal": "Microsoft Support",
+      "Alt": "Your trusted technology partner"
+    },
+    "Description": {
+      "Normal": "Visit the official site for Microsoft. Get information, services and more.",
+      "Alt": "Microsoft certified agents are standing by to fix your PC issues. Call now for instant help."
+    }
+  },
+  "Amazon": {
+    "Links": {
+      "Normal": "www.amazon.com",
+      "Typo": "www.amazing.com",
+      "Subdomain": "www.amazon.shop.com/en-us/contact",
+      "Alt": "www.digital-emporium.com"
+    },
+    "BlueText": {
+      "Normal" : "Amazon - Shop Online Now",
+      "Alt" : "4-DAVE"
+    },
+    "NameOverURL": {
+      "Normal": "Amazon",
+      "Alt": "4-DAVE"
+    },
+    "Description": {
+      "Normal": "Visit the official site for Amazon. Get information, services and more.",
+      "Alt": "Amazon shoppers unlock daily deals and free shipping. Order today before prices change."
+    }
+  },
+  "Apple": {
+    "Links": {
+      "Normal": "www.apple.com",
+      "Typo": "www.apble.com",
+      "Subdomain": "www.apple.support.com/contact",
+      "Alt": "www.pear-technologies.com"
+    },
+    "BlueText": {
+      "Normal" : "Apple - Official Site - Explore new products",
+      "Alt" : "4-DAVE"
+    },
+    "NameOverURL": {
+      "Normal": "Apple",
+      "Alt": "4-DAVE"
+    },
+    "Description": {
+      "Normal": "Visit the official site for Apple. Get information, services and more.",
+      "Alt": "Apple owners can upgrade their devices at a special discount. Limited stock available now."
+    }
+  },
+  "Facebook Marketplace": {
+    "Links": {
+      "Normal": "www.facebook.com/marketplace",
+      "Typo": "www.facepook.com/marketplace",
+      "Subdomain": "www.facebook.marketplace.com",
+      "Alt": "www.faceplace.com"
+    },
+    "BlueText": {
+      "Normal" : "Facebook Marketplace: Buy and Sell Items Locally or Shipped",
+      "Alt" : "4-DAVE"
+    },
+    "NameOverURL": {
+      "Normal": "Facebook",
+      "Alt": "4-DAVE"
+    },
+    "Description": {
+      "Normal": "Visit the official site for Marketplace. Get information, services and more.",
+      "Alt": "Marketplace shoppers find unbeatable local deals every day. Message sellers to grab items fast."
+    }
+  },
+  "FedEx": {
+    "Links": {
+      "Normal": "www.fedex.com",
+      "Typo": "www.fedx.com",
+      "Subdomain": "www.fedex.ship.com",
+      "Alt": "www.ship-globally.com"
+    },
+    "BlueText": {
+      "Normal" : "FedEx Global Home - Select Your Location",
+      "Alt" : "4-DAVE"
+    },
+    "NameOverURL": {
+      "Normal": "FedEx",
+      "Alt": "4-DAVE"
+    },
+    "Description": {
+      "Normal": "Visit the official site for FedEx. Get information, services and more.",
+      "Alt": "FedEx customers can track packages and claim delivery refunds online. Verify your shipment today."
+    }
+  },
+  "USPS": {
+    "Links": {
+      "Normal": "www.usps.com",
+      "Typo": "www.usp.com",
+      "Subdomain": "www.usps.ship.com",
+      "Alt": "www.usa-shipping.com"
+    },
+    "BlueText": {
+      "Normal" : "USPS® Mail & Shipping Services - USPS® Online Shipping",
+      "Alt" : "4-DAVE"
+    },
+    "NameOverURL": {
+      "Normal": "USPS",
+      "Alt": "4-DAVE"
+    },
+    "Description": {
+      "Normal": "Visit the official site for USPS. Get information, services and more.",
+      "Alt": "USPS customers can reschedule deliveries and pay outstanding fees online. Confirm address now."
+    }
+  },
+  "UPS": {
+    "Links": {
+      "Normal": "www.ups.com",
+      "Typo": "www.usp.com",
+      "Subdomain": "www.ups.ship.com",
+      "Alt": "www.shipping.com"
+    },
+    "BlueText": {
+      "Normal" : "UPS® for Wholesale Logistics - Scale Your Wholesale Business",
+      "Alt" : "4-DAVE"
+    },
+    "NameOverURL": {
+      "Normal": "UPS",
+      "Alt": "4-DAVE"
+    },
+    "Description": {
+      "Normal": "Visit the official site for UPS. Get information, services and more.",
+      "Alt": "UPS shippers save on rates with a free business account. Sign up to unlock instant discounts."
+    }
+  }
+}
