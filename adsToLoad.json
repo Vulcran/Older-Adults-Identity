@@ -3,7 +3,7 @@
     "Links": {
       "Normal": "www.capitalone.com",
       "Typo": "www.captalone.com",
-      "Subdomain": "www.capitalone.banking.com",
+      "Target": "www.capitalone.com-investment.ai",
       "Alt": "www.investment-banking.com"
     },
     "BlueText": {
@@ -23,7 +23,7 @@
     "Links": {
       "Normal": "www.bankofamerica.com",
       "Typo": "www.bankofamarica.com",
-      "Subdomain": "www.bankofamerica.login.com",
+      "Target": "www.bankofamerica.com.secure-portal.ai",
       "Alt": "www.investment-banking.com"
     },
     "BlueText": {
@@ -43,7 +43,7 @@
     "Links": {
       "Normal": "www.citi.com",
       "Typo": "citbank.com",
-      "Subdomain": "www.citi.auth-portal.com/login",
+      "Target": "www.citi.auth-portal.com/login",
       "Alt": "www.investment-banking.com"
     },
     "BlueText": {
@@ -63,7 +63,7 @@
     "Links": {
       "Normal": "www.ebay.com",
       "Typo": "www.epay.com",
-      "Subdomain": "www.ebay.auctions.com/browse",
+      "Target": "www.ebay.auctions.com/browse",
       "Alt": "www.auction-house.com"
     },
     "BlueText": {
@@ -83,7 +83,7 @@
     "Links": {
       "Normal": "www.paypal.com",
       "Typo": "www.pavpal.com",
-      "Subdomain": "www.paypal.auth.com/login",
+      "Target": "www.paypal.auth.com/login",
       "Alt": "www.money-made-easy.com"
     },
     "BlueText": {
@@ -103,7 +103,7 @@
     "Links": {
       "Normal": "www.venmo.com",
       "Typo": "www.vemo.com",
-      "Subdomain": "www.venmo.secure-portal.com/login",
+      "Target": "www.venmo.secure-portal.com/login",
       "Alt": "www.sendcash.com"
     },
     "BlueText": {
@@ -123,7 +123,7 @@
     "Links": {
       "Normal": "support.microsoft.com/en-us/contact",
       "Typo": "support.micrasoft.com/en-us/contact",
-      "Subdomain": "www.microsoft.support.com/en-us/contact",
+      "Target": "www.microsoft.support.com/en-us/contact",
       "Alt": "www.support4tech.com"
     },
     "BlueText": {
@@ -143,7 +143,7 @@
     "Links": {
       "Normal": "www.amazon.com",
       "Typo": "www.amazing.com",
-      "Subdomain": "www.amazon.shop.com/en-us/contact",
+      "Target": "www.amazon.shop.com/en-us/contact",
       "Alt": "www.digital-emporium.com"
     },
     "BlueText": {
@@ -163,7 +163,7 @@
     "Links": {
       "Normal": "www.apple.com",
       "Typo": "www.apble.com",
-      "Subdomain": "www.apple.support.com/contact",
+      "Target": "www.apple.support.com/contact",
       "Alt": "www.pear-technologies.com"
     },
     "BlueText": {
@@ -183,7 +183,7 @@
     "Links": {
       "Normal": "www.facebook.com/marketplace",
       "Typo": "www.facepook.com/marketplace",
-      "Subdomain": "www.facebook.marketplace.com",
+      "Target": "www.facebook.marketplace.com",
       "Alt": "www.faceplace.com"
     },
     "BlueText": {
@@ -203,7 +203,7 @@
     "Links": {
       "Normal": "www.fedex.com",
       "Typo": "www.fedx.com",
-      "Subdomain": "www.fedex.ship.com",
+      "Target": "www.fedex.ship.com",
       "Alt": "www.ship-globally.com"
     },
     "BlueText": {
@@ -223,7 +223,7 @@
     "Links": {
       "Normal": "www.usps.com",
       "Typo": "www.usp.com",
-      "Subdomain": "www.usps.ship.com",
+      "Target": "www.usps.ship.com",
       "Alt": "www.usa-shipping.com"
     },
     "BlueText": {
@@ -243,7 +243,7 @@
     "Links": {
       "Normal": "www.ups.com",
       "Typo": "www.usp.com",
-      "Subdomain": "www.ups.ship.com",
+      "Target": "www.ups.ship.com",
       "Alt": "www.shipping.com"
     },
     "BlueText": {

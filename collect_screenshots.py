@@ -67,6 +67,7 @@ def fetch_picsum_data_url(retries=3):
             time.sleep(1)
     return None  # caller handles None
 
+
 def format_display_url(link):
     if "/" not in link:
         return link
@@ -90,7 +91,8 @@ def get_driver():
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--allow-file-access-from-files")
     chrome_options.add_argument("--window-size=1200,900")
-    chrome_options.add_argument("user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
+    chrome_options.add_argument(
+        "user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
 
     service = Service(ChromeDriverManager().install())
     driver = webdriver.Chrome(service=service, options=chrome_options)
@@ -171,6 +173,7 @@ def inject_ad_and_screenshot(driver, ad_data, output_path):
     element.screenshot(output_path)
     print(f"Saved: {output_path}")
 
+
 def build_variations(org_name, org_data):
     """Return a list of (dir_path, params) tuples for every screenshot to capture for this org."""
     links = org_data["Links"]
@@ -201,13 +204,14 @@ def build_variations(org_name, org_data):
     plans.append(("No-Changes", "", links["Normal"], blue["Normal"], name["Normal"], desc["Normal"], normal_logo))
 
     if links.get("Typo"):
-        plans.append(("Typo", "", links["Typo"], blue["Normal"], name["Normal"], desc["Normal"], normal_logo))
+        plans.append(("URL-Typo", "", links["Typo"], blue["Normal"], name["Normal"], desc["Normal"], normal_logo))
 
-    if links.get("Subdomain"):
-        plans.append(("URL", "Subdomain", links["Subdomain"], blue["Normal"], name["Normal"], desc["Normal"], normal_logo))
+    if links.get("Target"):
+        plans.append(("URL-Target", "Target", links["Target"], blue["Normal"], name["Normal"], desc["Normal"],
+                      normal_logo))
 
     if links.get("Alt"):
-        plans.append(("URL", "Alt", links["Alt"], blue["Normal"], name["Normal"], desc["Normal"], normal_logo))
+        plans.append(("URL-Alt", "Alt", links["Alt"], blue["Normal"], name["Normal"], desc["Normal"], normal_logo))
 
     if blue.get("Alt"):
         plans.append(("BigBlueText", "", links["Normal"], blue["Alt"], name["Normal"], desc["Normal"], normal_logo))
@@ -239,7 +243,8 @@ def build_variations(org_name, org_data):
             for is_official in (True, False):
                 sub = f"{'Sponsored' if is_ad else 'Not-Sponsored'}/{'Official' if is_official else 'Not-Official'}"
                 dir_path = f"{base_dir}/{sub}"
-                params = base_params(link, blue_text, company_name, description, image_src, is_random_image, is_ad, is_official)
+                params = base_params(link, blue_text, company_name, description, image_src, is_random_image, is_ad,
+                                     is_official)
                 variations.append((dir_path, filename, params))
 
     return variations
