@@ -222,6 +222,7 @@ def build_variations(org_name, org_data):
     # Image: replace favicon with a random picsum photo
     plans.append(("Image", "", links["Normal"], blue["Normal"], name["Normal"], desc["Normal"], PICSUM_URL))
 
+    #typo and image
     if links.get("Typo"):
         plans.append(("TypoAndImage", "", links["Typo"], blue["Normal"], name["Normal"], desc["Normal"], PICSUM_URL))
 
@@ -237,7 +238,7 @@ def build_variations(org_name, org_data):
     variations = []
     for base_dir, subvariant, link, blue_text, company_name, description, favicon in plans:
         filename = f"{org_name}.png"
-        is_random_image = base_dir in ("Image", "Typo&Image", "random-image")
+        is_random_image = favicon == normal_logo
         image_src = PICSUM_URL if is_random_image else normal_logo
         for is_ad in (True, False):
             for is_official in (True, False):
