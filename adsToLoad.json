@@ -12,7 +12,7 @@
     },
     "NameOverURL": {
       "Normal": "Capital One",
-      "Alt": "4-DAVE"
+      "Alt": "Credit One Banking"
     },
     "Description": {
       "Normal": "Visit the official site for Capital One. Get information, services and more.",
@@ -32,7 +32,7 @@
     },
     "NameOverURL": {
       "Normal": "Bank of America",
-      "Alt": "4-DAVE"
+      "Alt": "Bank America"
     },
     "Description": {
       "Normal": "Visit the official site for Bank of America. Get information, services and more.",
@@ -52,7 +52,7 @@
     },
     "NameOverURL": {
       "Normal": "Citi.com",
-      "Alt": "4-DAVE"
+      "Alt": "City Bank"
     },
     "Description": {
       "Normal": "Visit the official site for Citi. Get information, services and more.",
@@ -72,7 +72,7 @@
     },
     "NameOverURL": {
       "Normal": "eBay",
-      "Alt": "4-DAVE"
+      "Alt": "Mercari"
     },
     "Description": {
       "Normal": "Visit the official site for eBay. Get information, services and more.",
@@ -108,11 +108,11 @@
     },
     "BlueText": {
       "Normal" : "Venmo - Official Site - Fast, Safe, Social Payments",
-      "Alt" : "4-DAVE"
+      "Alt" : "Venmo - Send, Receive, & Transfer Payments"
     },
     "NameOverURL": {
       "Normal": "Venmo",
-      "Alt": "4-DAVE"
+      "Alt": "Cash App"
     },
     "Description": {
       "Normal": "Visit the official site for Venmo. Get information, services and more.",
@@ -148,11 +148,11 @@
     },
     "BlueText": {
       "Normal" : "Amazon - Shop Online Now",
-      "Alt" : "4-DAVE"
+      "Alt" : "Amazon - Whats Around the Corner?"
     },
     "NameOverURL": {
       "Normal": "Amazon",
-      "Alt": "4-DAVE"
+      "Alt": "Walmart"
     },
     "Description": {
       "Normal": "Visit the official site for Amazon. Get information, services and more.",
@@ -168,11 +168,11 @@
     },
     "BlueText": {
       "Normal" : "Apple - Official Site - Explore new products",
-      "Alt" : "4-DAVE"
+      "Alt" : "Apple - Discover the new IOS 27"
     },
     "NameOverURL": {
       "Normal": "Apple",
-      "Alt": "4-DAVE"
+      "Alt": "Samsung"
     },
     "Description": {
       "Normal": "Visit the official site for Apple. Get information, services and more.",
@@ -188,11 +188,11 @@
     },
     "BlueText": {
       "Normal" : "Facebook Marketplace: Buy and Sell Items Locally or Shipped",
-      "Alt" : "4-DAVE"
+      "Alt" : "Facebook Marketplace - Sell, Buy & Trade"
     },
     "NameOverURL": {
       "Normal": "Facebook",
-      "Alt": "4-DAVE"
+      "Alt": "Craigslist"
     },
     "Description": {
       "Normal": "Visit the official site for Marketplace. Get information, services and more.",
@@ -208,11 +208,11 @@
     },
     "BlueText": {
       "Normal" : "FedEx Global Home - Select Your Location",
-      "Alt" : "4-DAVE"
+      "Alt" : "FedEx - Overnight Delivery Offered in All 50 States"
     },
     "NameOverURL": {
       "Normal": "FedEx",
-      "Alt": "4-DAVE"
+      "Alt": "DHL"
     },
     "Description": {
       "Normal": "Visit the official site for FedEx. Get information, services and more.",
@@ -228,11 +228,11 @@
     },
     "BlueText": {
       "Normal" : "USPS® Mail & Shipping Services - USPS® Online Shipping",
-      "Alt" : "4-DAVE"
+      "Alt" : "USPS - 250 Years of Excellence"
     },
     "NameOverURL": {
       "Normal": "USPS",
-      "Alt": "4-DAVE"
+      "Alt": "UPS"
     },
     "Description": {
       "Normal": "Visit the official site for USPS. Get information, services and more.",
@@ -248,11 +248,11 @@
     },
     "BlueText": {
       "Normal" : "UPS® for Wholesale Logistics - Scale Your Wholesale Business",
-      "Alt" : "4-DAVE"
+      "Alt" : "UPS - Ship, Print, Notarize"
     },
     "NameOverURL": {
       "Normal": "UPS",
-      "Alt": "4-DAVE"
+      "Alt": "USPS"
     },
     "Description": {
       "Normal": "Visit the official site for UPS. Get information, services and more.",
