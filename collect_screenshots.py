@@ -223,14 +223,14 @@ def build_variations(org_name, org_data):
     plans.append(("Image", "", links["Normal"], blue["Normal"], name["Normal"], desc["Normal"], PICSUM_URL))
 
     #typo and image
-    if links.get("Typo"):
-        plans.append(("TypoAndImage", "", links["Typo"], blue["Normal"], name["Normal"], desc["Normal"], PICSUM_URL))
+    if links.get("Target"):
+        plans.append(("TargetURLAndRandImage", "", links["Target"], blue["Normal"], name["Normal"], desc["Normal"], PICSUM_URL))
 
     if desc.get("Alt"):
         plans.append(("Description", "", links["Normal"], blue["Normal"], name["Normal"], desc["Alt"], normal_logo))
 
-    if name.get("Alt") and links.get("Alt"):
-        plans.append(("AboveBlueText", "", links["Alt"], blue["Normal"], name["Alt"], desc["Normal"], normal_logo))
+    if name.get("Alt") and links.get("Target"):
+        plans.append(("AboveBlueText", "", links["Target"], blue["Normal"], name["Alt"], desc["Normal"], normal_logo))
 
     if blue.get("Alt") and desc.get("Alt"):
         plans.append(("BlueTextAndBelow", "", links["Normal"], blue["Alt"], name["Normal"], desc["Alt"], normal_logo))
